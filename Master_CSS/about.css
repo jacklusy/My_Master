@@ -1,0 +1,76 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Master_img/Untitled design (12).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ 
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background: #f7f7f7; */
+}
+
+
+#aSide {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: calc(50% - -27px);
+    left: 0%;
+}
+
+#aSide2 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: 0%;
+}
+
+
+#aSide3 {
+    position: absolute;
+    top: calc(50% - 200px);
+    left: 20em;
+    right: 25em;
+}
+
+#aSide4 {
+    position: absolute;
+    top: calc(50% - -150px);
+    left: 20em;
+    right: 25em;
+}
+
+model-viewer {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 20px;
+}
+
+#container #aSide3 p b{
+    font-size: 18px;
+}
+
+
+#container #aSide4 p b{
+    font-size: 18px;
+}

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rebekah02 3D print model
+* source:	https://sketchfab.com/3d-models/rebekah02-3d-print-model-f9cfbfa1b80c4213999a81b6dfb35aea
+* author:	3DLadnik (https://sketchfab.com/3DLadnik)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rebekah02 3D print model" (https://sketchfab.com/3d-models/rebekah02-3d-print-model-f9cfbfa1b80c4213999a81b6dfb35aea) by 3DLadnik (https://sketchfab.com/3DLadnik) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+body{
+    background-image: url('../Master_img/Untitled design (8).png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.warpper{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    margin-left: 8em;
+}
+
+.form-wrapper{
+    position: relative;
+    width: 400px;
+    height: 505px;
+    border-radius: 20px;
+    padding: 0px 40px;
+    overflow: hidden;
+    
+}
+
+.form-wrapper2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 97.2%;
+    transition: 1s ease-in-out;
+}
+
+.form-wrapper.active .form-wrapper2.sign-in{
+    transform: translateY(-450px);
+}
+
+
+.form-wrapper .form-wrapper2.sign-up{
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
+
+
+.form-wrapper.active .form-wrapper2.sign-up{
+    transform: translateY(-450px);
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.input-group{
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 320px;
+    height: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 0 5px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: -5px;
+I}
+
+.remember {
+    margin: -5px 0 13px 5px;
+}
+
+.remember label{
+    color: #000000;
+    font-size: 14px;
+}
+
+.remember label input {
+    accent-color: #003461;
+}
+
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.register-link p{
+    color: #000000;
+}
+
+.register-link p a {
+    color: #12517E;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.register-link p a:hover{
+    text-decoration: underline;
+
+}
+
+
+/* ---------------------- */
+/* degin button */
+
+.log_re_btn a{
+    display: inline-block !important;
+}
+
+
+.log_re_btn a{
+    position: relative;
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+
+    border-radius: 30px;
+}
+
+
+a span{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    z-index: 1;
+}
+
+.login_btn span{
+    padding-left: 70px;
+    position: relative;
+    top: -10px;
+}
+
+
+a .liquid {
+    position: absolute;
+    top: -95px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #000000;
+    box-shadow: inset 0 0 50px #C1C3CB;
+    transition: .5s;
+}
+
+a .liquid::after,
+a .liquid::before{
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: -103px;
+    left: 53%;
+    transform: translate(-50%, -75%);
+    background: #E5E6E8;
+}
+
+a .liquid::before{
+    border-radius: 45%;
+    background: #E5E6E8;
+    animation: animate 15s linear infinite;
+}
+
+a .liquid::after{
+    border-radius: 40%;
+    background: #E5E6E8;
+    animation: animate 20s linear infinite;
+}
+
+a:hover .liquid{
+    top: -120px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50% , -75%) rotate(0deg) ;
+    }
+    100% {
+        transform: translate(-50% , -75%) rotate(360deg);
+    }
+}

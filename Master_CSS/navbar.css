@@ -1,0 +1,84 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    background-color: black;
+
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+
+.logo{
+    width: 5.5em;
+    height: 5em;
+    padding: 10px 20px 20px 30px;   
+}
+
+.sec_nav{
+    color: #a0a0a0;
+    padding: 30px 0px;
+    
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* letter-spacing: 0.5px; */
+
+
+}
+
+.sec_nav::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: 20px;
+    transition: 0.3s;
+}
+
+.sec_nav:hover{
+    color: white;
+}
+
+.sec_nav:hover::after{
+    width: 100%;
+}
+
+.fa-solid,.fa-brands{
+    margin-right: 10px;
+}
+
+.home{
+    grid-column: 5/6;
+    width: 4.5em; 
+}
+
+.creative{
+    grid-column: 6/7;
+    width: 6em;
+}
+
+.about{
+    grid-column: 7/8;
+    width: 6.7em;
+}
+
+.contact{
+    grid-column: 8/9;
+    width: 7em;
+}
+
+.chart{
+    grid-column: 11/12;
+    width: 5em;
+}
+
+.login{
+    grid-column: -1/12;
+    width: 5em;
+}

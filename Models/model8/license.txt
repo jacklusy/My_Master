@@ -1,0 +1,11 @@
+Model Information:
+* title:	Character 4
+* source:	https://sketchfab.com/3d-models/character-4-123a5f0aa99a4e6aa87bb2c487455b83
+* author:	iansilvadaher (https://sketchfab.com/iansilvadaher)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Character 4" (https://sketchfab.com/3d-models/character-4-123a5f0aa99a4e6aa87bb2c487455b83) by iansilvadaher (https://sketchfab.com/iansilvadaher) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

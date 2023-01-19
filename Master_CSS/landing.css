@@ -1,0 +1,177 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Master_img/3333333333.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img{
+    position: absolute;
+    right: -10em;
+    top: -10em;
+}    
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background: #f7f7f7; */
+}
+
+#aSide {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50% - 300px);
+    right: 0%;
+}
+
+#aSide2 {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: 0%;
+}
+
+#aSide img,
+model-viewer {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#aSide2 img,
+model-viewer {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.welcome{
+    position: absolute;
+    top: 15em;   
+    left: 30em;
+    right: 30em;
+    /* text-align: center; */
+}
+
+.welcome p,h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #495F6D;
+}
+
+.welcome h1{
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.welcome p{
+    font-weight: bolder;
+}
+
+/* ---------------------- */
+/* degin button */
+
+.log_re_btn a{
+    display: inline-block !important;
+}
+
+.login_btn{
+    margin-top: 5em;
+    margin-left: 3em;
+}
+
+
+.register_btn{
+    margin-left: 30px;
+}
+
+.log_re_btn a{
+    position: relative;
+    padding: 20px 50px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+
+a span{
+    position: relative;
+    color: white;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 8px;
+    z-index: 1;
+}
+
+.login_btn span{
+    padding-left: 15px;
+}
+
+
+a .liquid {
+    position: absolute;
+    top: -95px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #495F6D;
+    box-shadow: inset 0 0 50px #C1C3CB;
+    transition: .5s;
+}
+
+a .liquid::after,
+a .liquid::before{
+    content: '';
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #E5E6E8;
+}
+
+a .liquid::before{
+    border-radius: 45%;
+    background: #E5E6E8;
+    animation: animate 5s linear infinite;
+}
+
+a .liquid::after{
+    border-radius: 40%;
+    background: #E5E6E8;
+    animation: animate 10s linear infinite;
+}
+
+a:hover .liquid{
+    top: -120px;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50% , -75%) rotate(0deg) ;
+    }
+    100% {
+        transform: translate(-50% , -75%) rotate(360deg);
+    }
+}
