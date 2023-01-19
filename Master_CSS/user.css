@@ -1,0 +1,20 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Master_img/');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ 
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background: #f7f7f7; */
+}

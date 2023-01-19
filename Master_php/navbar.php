@@ -11,6 +11,7 @@
         <a href="contact.php" class="sec_nav contact"><i class="fa-solid fa-message" ></i>Contact US</a>
         <a href="#" class="sec_nav chart"><i class="fa-solid fa-basket-shopping" ></i>Chart</a>
         <a href="login.php" class="sec_nav login"><i class="fa-solid fa-right-to-bracket" ></i>Login</a>
+        <!-- <a href="user.php" class="sec_nav user"><i class="fa-solid fa-user"></i></a> -->
         <!-- <a href="#" class="sec_nav "><i class="fa-solid fa-right-from-bracket"></i>Logout</a> -->
     </div>
 </div>

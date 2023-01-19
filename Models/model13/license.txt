@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cape coat
+* source:	https://sketchfab.com/3d-models/cape-coat-d80a4dee19b34c85835ca99416cda15b
+* author:	yang_xiaogang (https://sketchfab.com/yang_xiaogang)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cape coat" (https://sketchfab.com/3d-models/cape-coat-d80a4dee19b34c85835ca99416cda15b) by yang_xiaogang (https://sketchfab.com/yang_xiaogang) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

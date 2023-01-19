@@ -72,7 +72,7 @@ model-viewer {
 .welcome p,h1{
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    color: #495F6D;
+    color: #000000;
 }
 
 .welcome h1{
@@ -134,7 +134,7 @@ a .liquid {
     left: 0;
     width: 200px;
     height: 200px;
-    background: #495F6D;
+    background: #232222;
     box-shadow: inset 0 0 50px #C1C3CB;
     transition: .5s;
 }

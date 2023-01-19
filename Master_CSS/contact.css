@@ -18,15 +18,15 @@ body{
     justify-content: start;
     align-items: center;
     min-height: 100vh;
-    margin-left: 8em;
+    margin-left: 6em;
 }
 
 .form-wrapper{
     position: relative;
-    width: 400px;
-    height: 505px;
+    width: 530px;
+    height: 600px;
     border-radius: 20px;
-    padding: 0px 40px;
+    padding: 40px 40px 0;
     
 }
 
@@ -123,90 +123,26 @@ I}
 
 }
 
-
-/* ---------------------- */
-/* degin button */
-
-.log_re_btn a{
-    display: inline-block !important;
+.form-wrapper2 form {
+    width: 100%;
+    height: 100%;
 }
 
-
-.log_re_btn a{
-    position: relative;
-    padding: 20px 50px;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
+button {
     width: 100%;
     height: 40px;
-    overflow: hidden;
-
     border-radius: 30px;
-}
-
-
-a span{
-    position: relative;
-    color: white;
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: bolder;
-    letter-spacing: 8px;
-    z-index: 1;
+
+    background-color: #000000;
+    color: white;
 }
 
-.login_btn span{
-    padding-left: 50px;
-    position: relative;
-    top: -10px;
+button:hover {
+    background-color: white;
+    color: #000000; 
 }
 
 
-a .liquid {
-    position: absolute;
-    top: -95px;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    background: #000000;
-    box-shadow: inset 0 0 50px #C1C3CB;
-    transition: .5s;
-}
-
-a .liquid::after,
-a .liquid::before{
-    content: '';
-    width: 200%;
-    height: 200%;
-    position: absolute;
-    top: -103px;
-    left: 53%;
-    transform: translate(-50%, -75%);
-    background: #E5E6E8;
-}
-
-a .liquid::before{
-    border-radius: 45%;
-    background: #E5E6E8;
-    animation: animate 15s linear infinite;
-}
-
-a .liquid::after{
-    border-radius: 40%;
-    background: #E5E6E8;
-    animation: animate 20s linear infinite;
-}
-
-a:hover .liquid{
-    top: -120px;
-}
-
-@keyframes animate {
-    0% {
-        transform: translate(-50% , -75%) rotate(0deg) ;
-    }
-    100% {
-        transform: translate(-50% , -75%) rotate(360deg);
-    }
-}

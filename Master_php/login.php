@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=7, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login & Register</title>
     <link rel="stylesheet" href="../Master_CSS/login.css">
 </head>
 <body>
@@ -30,18 +30,19 @@
                         <input type="checkbox"> Remember me
                     </label>
                 </div>
-                <!-- <button type="submit">Login</button> -->
 
-                <div class="log_re_btn">
+                <button type="submit">Login</button>
+
+                <!-- <div class="log_re_btn">
                     <a href="#" class="login_btn">
                         <span>Login</span>
                         <div class="liquid"></div>
                     </a>
-                </div>
+                </div> -->
 
                 <div class="register-link" >
                     <p>Don't have account?<a href="#" 
-                    class="registerBtn-link">Register</a></p>
+                    class="registerBtn-link" onclick="white()">Register</a></p>
                 </div>
             </form>
         </div>
@@ -78,18 +79,18 @@
                     </label>
                 </div>
     
-                <!-- <button type="submit">Login</button> -->
+                <button type="submit">Register</button>
     
-                <div class="log_re_btn">
+                <!-- <div class="log_re_btn">
                     <a href="#" class="login_btn">
-                        <span>Register</span>
+                        <span class="pad_re">Register</span>
                         <div class="liquid"></div>
                     </a>
-                </div>
+                </div> -->
     
                 <div class="register-link">
                     <p>Already have account?<a href="#" 
-                    class="signInBtn-link" >Login</a></p>
+                    class="signInBtn-link" onclick="white2()">Login</a></p>
                 </div>
             </form>
         </div>
@@ -98,7 +99,9 @@
 
 </div>
 
-
+<div id="back_white">
+    <pre>  </pre>
+</div>
 
 <?php include('footer.php'); ?>
     

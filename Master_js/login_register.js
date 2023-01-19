@@ -9,3 +9,14 @@ signUpBtnLink.addEventListener('click', () => {
 signInBtnLink.addEventListener('click', () => {
     wrapper.classList.toggle('active');
 });
+
+function white() {
+document.getElementById('back_white').style.display="none";
+
+}
+
+
+function white2() {
+    document.getElementById('back_white').style.display="block";
+    
+}

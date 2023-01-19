@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=7, initial-scale=1.0">
-    <title>Login</title>
+    <title>Contact US</title>
     <link rel="stylesheet" href="../Master_CSS/contact.css">
 </head>
 <body>
@@ -31,13 +31,14 @@
                     <label for="">Massage</label>  
                 </div>
 
-                
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i>Send</button>
+<!--                 
                 <div class="log_re_btn">
                     <a href="#" class="login_btn">
                         <span><i class="fa-solid fa-paper-plane"></i>Send</span>
                         <div class="liquid"></div>
                     </a>
-                </div>
+                </div> -->
 
                 
             </form>

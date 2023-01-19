@@ -9,12 +9,12 @@
 
     <div class="footer_box">
         <img src="../Master_img/model__2_-removebg-preview.png" class="footer_logo" alt="logo"><br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque fugit esse reprehenderit suscipit animi quos provident a inventore magnam? In.</p>
+        <p>Our site presents you with a three-dimensional replica of you, and it is used on clothing sites dealing with our company so that you can coordinate clothes based on their consistency with your appearance.</p>
     </div>
 
    <div class="footer_box">
       <h3>quick links</h3>
-      <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
+      <a href="landing_page.php"> <i class="fas fa-angle-right"></i> home</a>
       <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
       <a href="contact.php"> <i class="fas fa-angle-right"></i> contact</a>
    </div>
