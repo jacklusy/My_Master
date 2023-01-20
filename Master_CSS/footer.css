@@ -6,12 +6,13 @@
 
 
 .footer{
-    background-color: #000000 !important;
+    background-color: white !important;
     position: relative;
     bottom: 0px;
     width: 100%;
     padding: 1em;
     padding-left: 4em;
+    box-shadow: inset 0px -1px 6px -1px rgb(0 0 0);
     
  }
  
@@ -35,28 +36,28 @@
     margin:1rem 0;
     font-size: 0.7rem;
     color:var(--light-color);
-    color:#a0a0a0 !important ;
+    color:black !important ;
  }
  
  .footer h3 {
-    color:rgb(250 240 240) !important
+    color:black !important
  }
  
 
  .footer .grid .footer_box a i{
     padding-right: 1rem;
-    color:#a0a0a0 !important;
+    color:black !important;
     transition: .2s linear;
  }
  
  .footer .grid .footer_box a:hover{
     /* color:var(--main-color); */
-   color: white !important;
+   color: rgba(0, 0, 0, 0.61) !important;
  }
  
  .footer .grid .footer_box a:hover i{
     padding-right: 2rem;
-      color: white !important;
+      color: rgba(0, 0, 0, 0.61)  !important;
 
  }
  
@@ -73,13 +74,13 @@
  }
  
  .footer_box .footer_logo{
-   width: 4em;
+   width: 1.7em;
    height: 5em;
  }
 
  .footer_box p {
    margin-top: 2em;
-   color: #a0a0a0;
+   color: black;
    font-size: 10px;
  }
 

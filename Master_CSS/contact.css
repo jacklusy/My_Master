@@ -8,6 +8,7 @@
 
 body{
     background-image: url('../Master_img/Untitled design (8).png');
+    background-color: #efefef ;
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -145,4 +146,5 @@ button:hover {
     color: #000000; 
 }
 
-
+/* ==================== */
+     

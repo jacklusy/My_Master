@@ -7,7 +7,8 @@
 }
 
 body{
-    background-image: url('../Master_img/3333333333.jpg');
+    /* background-image: url('../Master_img/Untitled design (1).png'); */
+    background-color: #efefef;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -148,18 +149,18 @@ a .liquid::before{
     top: 0;
     left: 50%;
     transform: translate(-50%, -75%);
-    background: #E5E6E8;
+    background: #efefef;
 }
 
 a .liquid::before{
     border-radius: 45%;
-    background: #E5E6E8;
+    background: #efefef;
     animation: animate 5s linear infinite;
 }
 
 a .liquid::after{
     border-radius: 40%;
-    background: #E5E6E8;
+    background: #efefef;
     animation: animate 10s linear infinite;
 }
 

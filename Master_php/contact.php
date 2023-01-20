@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=7, initial-scale=1.0">
     <title>Contact US</title>
     <link rel="stylesheet" href="../Master_CSS/contact.css">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact Us Page Design using Html CSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
 </head>
 <body>
 <?php include('navbar.php'); ?>
+
 
 <div class="warpper"> 
     <div class="form-wrapper sign-in">
@@ -32,8 +43,7 @@
                 </div>
 
                 <button type="submit"><i class="fa-solid fa-paper-plane"></i>Send</button>
-<!--                 
-                <div class="log_re_btn">
+                <!-- <div class="log_re_btn">
                     <a href="#" class="login_btn">
                         <span><i class="fa-solid fa-paper-plane"></i>Send</span>
                         <div class="liquid"></div>

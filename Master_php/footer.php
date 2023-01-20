@@ -8,7 +8,7 @@
 <section class="grid">
 
     <div class="footer_box">
-        <img src="../Master_img/model__2_-removebg-preview.png" class="footer_logo" alt="logo"><br>
+        <img src="../Master_img/Untitled-1 (1).png" class="footer_logo" alt="logo"><br>
         <p>Our site presents you with a three-dimensional replica of you, and it is used on clothing sites dealing with our company so that you can coordinate clothes based on their consistency with your appearance.</p>
     </div>
 
@@ -18,7 +18,7 @@
       <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
       <a href="contact.php"> <i class="fas fa-angle-right"></i> contact</a>
    </div>
-
+   
 
    <div class="footer_box">
       <h3>contact us</h3>
