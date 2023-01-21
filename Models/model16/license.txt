@@ -1,0 +1,11 @@
+Model Information:
+* title:	Female0
+* source:	https://sketchfab.com/3d-models/female0-e8531c1e4ea74c9bb889386301277b8a
+* author:	xqs100 (https://sketchfab.com/xqs100)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Female0" (https://sketchfab.com/3d-models/female0-e8531c1e4ea74c9bb889386301277b8a) by xqs100 (https://sketchfab.com/xqs100) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

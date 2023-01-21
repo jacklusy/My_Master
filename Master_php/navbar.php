@@ -35,9 +35,13 @@
                   <li><a href="creative.php"><i class="fa-brands fa-unity" ></i>Creative</a></li>
                   <li><a href="about.php"><i class="fa-solid fa-address-card" ></i>About US</a></li>
                   <li><a href="contact.php"><i class="fa-solid fa-message" ></i>Contact US</a></li>
-                  <li><a href="#"><i class="fa-solid fa-basket-shopping" ></i>Cart</a></li>
-                  <li><a href="login.php"><i class="fa-solid fa-right-to-bracket" ></i>Login</a></li>
-               </ul>
+                </ul>
+            </nav>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-basket-shopping" ></i>Cart</a></li>
+                    <li><a href="login.php"><i class="fa-solid fa-right-to-bracket" ></i>Login</a></li>
+                </ul>
             </nav>
         </div>
     </div>

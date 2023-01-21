@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=7, initial-scale=1.0">
     <title>Login & Register</title>
     <link rel="stylesheet" href="../Master_CSS/login.css">
+
+     
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+
 </head>
 <body>
 <?php include('navbar.php'); ?>
 
 <div class="warpper"> 
+
+  
     <div class="form-wrapper sign-in">
         <div class="form-wrapper2 sign-in">      
             <form action="">
@@ -33,13 +41,6 @@
 
                 <button type="submit">Login</button>
 
-                <!-- <div class="log_re_btn">
-                    <a href="#" class="login_btn">
-                        <span>Login</span>
-                        <div class="liquid"></div>
-                    </a>
-                </div> -->
-
                 <div class="register-link" >
                     <p>Don't have account?<a href="#" 
                     class="registerBtn-link" onclick="white()">Register</a></p>
@@ -50,10 +51,7 @@
         <div class=" form-wrapper2 sign-in">      
             <form action="">
                 <h2>Register</h2>
-                <!-- <div class="input-group">
-                    <input type="text" required>
-                    <label for="">First Name</label>
-                </div> -->
+              
                 <div class="input-group" >
                     <input type="text" required>
                     <label for="">Username</label>
@@ -81,13 +79,6 @@
     
                 <button type="submit">Register</button>
     
-                <!-- <div class="log_re_btn">
-                    <a href="#" class="login_btn">
-                        <span class="pad_re">Register</span>
-                        <div class="liquid"></div>
-                    </a>
-                </div> -->
-    
                 <div class="register-link">
                     <p>Already have account?<a href="#" 
                     class="signInBtn-link" onclick="white2()">Login</a></p>
@@ -95,6 +86,12 @@
             </form>
         </div>
 
+    </div>
+
+    <div class="form-wrapper  first-container">
+        <div id="aSide2">
+            <model-viewer src="../Models/model16/scene.gltf" alt="model robot" auto-rotate camera-controls ar ios-src="../Models/model16/scene.gltf" class="model"></model-viewer>
+        </div>
     </div>
 
 </div>

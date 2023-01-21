@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ochako Uraraka
+* source:	https://sketchfab.com/3d-models/ochako-uraraka-48a1a2f3b94f4c1497420574d3a87efd
+* author:	Rain (https://sketchfab.com/prostuda213)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ochako Uraraka" (https://sketchfab.com/3d-models/ochako-uraraka-48a1a2f3b94f4c1497420574d3a87efd) by Rain (https://sketchfab.com/prostuda213) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)

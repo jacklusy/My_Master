@@ -85,3 +85,8 @@
  }
 
  
+@media screen and (max-width: 280px){
+   .footer_box p {
+       width: 20em;
+   }
+ }
